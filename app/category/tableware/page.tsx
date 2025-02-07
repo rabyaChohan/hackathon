@@ -1,25 +1,9 @@
-import ProductGrid from "@/app/components/ProductGrid";
 
 
 
 export default async function TablewarePage() {
   try {
-    const query = `*[_type == "product" && category->name == 'tableware']{
-      name,
-      tags,
-      price,
-      stock,
-      dimensions,
-      id,
-      description,
-      discount,
-      originalPrice,
-      "categoryName": category->name,
-      "slug": slug.current,
-      "imageUrl": image.asset->url,
-      rating 
-    }`;
-
+    
 
   } catch (error) {
     console.error("Error fetching products:", error);

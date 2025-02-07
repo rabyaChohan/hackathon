@@ -1,24 +1,9 @@
-import ProductGrid from "@/app/components/ProductGrid";
 
 
 
 export default async function ChairsPage() {
   try {
-    const query = `*[_type == "product" && category->name == 'chairs']{
-      name,
-      tags,
-      price,
-      stock,
-      dimensions,
-      id,
-      description,
-      discount,
-      originalPrice,
-      "categoryName": category->name,
-      "slug": slug.current,
-      "imageUrl": image.asset->url,
-      rating 
-    }`;
+   
 
 
   } catch (error) {

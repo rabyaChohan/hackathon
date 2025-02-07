@@ -1,6 +1,4 @@
-import { FaShoppingCart } from "react-icons/fa";
-import Image from "next/image";
-import Link from "next/link";
+
 
 const Header = () => {
   return (
